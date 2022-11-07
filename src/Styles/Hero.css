@@ -1,0 +1,103 @@
+/* .hero{
+  background: url("../Assets/hero.jpg");
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  text-align: center;
+  background-repeat: no-repeat;
+  height:70vh;
+} */
+
+.hero{
+    padding:8rem 3rem 0 3rem;
+    text-align: center;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.line1{
+    font-size:2rem;
+    margin: 2rem 0;
+    letter-spacing: 0.1rem;
+}
+.line2{
+    font-size:1.5rem;
+    letter-spacing: 0.08rem;
+    margin-bottom: 1rem;
+}
+.btn{
+    font-size: 1.2rem;
+    padding: 0.6rem 0.8rem;
+    letter-spacing: 0.05rem;
+    background-color:red;
+    border: none;
+    border-radius: 0.8rem;
+    color: white;
+    margin: 1rem 0;
+}
+.logo{
+    height:80px;
+    width: 350px;
+    /* margin: 1rem 0 2rem 0; */
+    margin-bottom: 2rem;
+}
+.red{
+    color: red;
+    /* font-family: 'logo'; */
+  }
+  .white{
+    color: white;
+    /* font-family: 'logo'; */
+  }
+
+  @media screen and (min-width:1600px){
+     .line1{
+        font-size: 2.5rem;
+     }
+     .logo{
+        height: 120px;
+        width: 450px;
+        margin: 2rem 0 3rem 0;
+     }
+     .line2{
+        font-size: 2rem;
+        line-height:3rem;
+     }
+  }
+
+  @media screen and (max-width:1025px){
+    .hero{
+        padding-top: 6rem;
+    }
+    .line1{
+        font-size: 1.5rem;
+        line-height:2.5rem;
+    }
+    .logo{
+        height:50px;
+        width: 260px;
+    }
+    .line2{
+        font-size: 1.2rem;
+        line-height:1.8rem;
+    }
+  }
+  @media screen and (max-width:427px){
+    .hero{
+        padding: 8rem 1rem 0 1rem;
+    }
+    .line1{
+        font-size: 1.2rem;
+        line-height: 2.2rem;
+        margin: 1rem 0;
+    }
+    .logo{
+        height: 30px;
+        width: 160px;
+        margin-bottom: 1.2rem;
+    }
+    .line2{
+        font-size: 1rem;
+        margin-bottom: 0.2rem;
+    }
+  }
