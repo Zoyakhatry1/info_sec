@@ -8,6 +8,7 @@ import Resources from './components/Resources';
 import { Routes, Route } from "react-router-dom";
 import Members from './components/Members';
 import Hero from './components/Hero';
+import Homepage from './pages/Homepage';
 
 
 function App() {
@@ -20,12 +21,12 @@ function App() {
     <Navbar toggle={toggle} />
     <Sidebar isopen={isopen} toggle={toggle} />
     <Routes>
+      <Route path='/' element={<Homepage />} />
       <Route path="/about" element={<About />} />
       <Route path="/events" element={<Events />} />
       <Route path='/resources' element={<Resources />} />
       <Route path='/members' element={<Members />} />
     </Routes>
-    <Hero />
   </>
   );
 }
