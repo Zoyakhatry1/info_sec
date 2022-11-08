@@ -12,14 +12,10 @@ import Homepage from './pages/Homepage';
 
 
 function App() {
-  const [isopen, setisopen] = useState(false);
-  const toggle = () => {
-    setisopen(!isopen);
-  };
+  
   return (
     <>
-    <Navbar toggle={toggle} />
-    <Sidebar isopen={isopen} toggle={toggle} />
+   
     <Routes>
       <Route path='/' element={<Homepage />} />
       <Route path="/about" element={<About />} />
