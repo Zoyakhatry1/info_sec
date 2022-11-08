@@ -3,9 +3,9 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 2rem 2rem 2rem 0.8rem;
-    z-index: 100;
     position: fixed;
     width: 100%;
+    z-index: 1000;
     background: rgb(14, 14, 14);
     
   }
@@ -20,12 +20,12 @@ nav {
     margin-left: 1rem;
   }
   #logo{
-    margin-left:2%;
+    margin-left:3%;
   }
   img{
-    height:40px;
-    width:180px;
-    margin-top:0.5rem;
+    height:90px;
+    width:130px;
+    margin-top:0.7rem;
   }
   .mobile-menu-icon {
     display: none;
@@ -74,7 +74,7 @@ nav {
       display: flex;
       align-items: center;
       justify-content: space-evenly;
-      font-size:4vh;
+      font-size:3vh;
       cursor: pointer;
       top: 0;
       right: 0;
@@ -83,8 +83,9 @@ nav {
       margin-left:0rem;
     }
     img{
-      width: 150px;
-      height:30px;
+      width: 100px;
+      height:60px;
+      margin-top: 0;
     }
   }
   

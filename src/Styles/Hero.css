@@ -13,15 +13,34 @@
     text-align: center;
     margin: auto;
     font-family: 'Roboto', sans-serif;
+    background: url("../Assets/hero7.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 80vh; */
+    position: relative;
+    height:70vh;
+    top: 10px;
+    z-index: 20;
+}
+.hero__text{
+  position: absolute;
+  max-width:80vw;
+  margin: 0 auto;
+  padding:5px;
+  top:55%;
+  transform: translateY(-50%);
+  left:18%;
+  background: rgba(0,0,0, 0.7);
 }
 
 .line1{
-    font-size:2rem;
+    font-size:1.5rem;
     margin: 2rem 0;
     letter-spacing: 0.1rem;
 }
 .line2{
-    font-size:1.5rem;
+    font-size:1.2rem;
     letter-spacing: 0.08rem;
     margin-bottom: 1rem;
 }
@@ -36,8 +55,8 @@
     margin: 1rem 0;
 }
 .logo{
-    height:80px;
-    width: 350px;
+    height:60px;
+    width: 300px;
     /* margin: 1rem 0 2rem 0; */
     margin-bottom: 2rem;
 }
@@ -51,6 +70,9 @@
   }
 
   @media screen and (min-width:1600px){
+    .hero{
+        height: 50vh;
+    }
      .line1{
         font-size: 2.5rem;
      }
@@ -69,27 +91,37 @@
     .hero{
         padding-top: 6rem;
     }
+    .hero__text{
+        /* top: 22%; */
+        left: 8%;
+    }
     .line1{
-        font-size: 1.5rem;
-        line-height:2.5rem;
+        font-size: 1.2rem;
+        line-height:2rem;
+        margin-bottom: 1.2rem;
     }
     .logo{
-        height:50px;
-        width: 260px;
+        height:30px;
+        width: 200px;
     }
     .line2{
-        font-size: 1.2rem;
-        line-height:1.8rem;
+        font-size: 1.03rem;
+        /* line-height:1.5rem; */
     }
   }
   @media screen and (max-width:427px){
     .hero{
         padding: 8rem 1rem 0 1rem;
+        height: 58vh;
+    }
+    .hero__text{
+        max-width: 95vw;
+        padding:3px;
     }
     .line1{
-        font-size: 1.2rem;
-        line-height: 2.2rem;
-        margin: 1rem 0;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin: 1rem 0 0.4rem 0;
     }
     .logo{
         height: 30px;
@@ -97,7 +129,8 @@
         margin-bottom: 1.2rem;
     }
     .line2{
-        font-size: 1rem;
+        font-size: 0.8rem;
+        line-height: 1.2rem;
         margin-bottom: 0.2rem;
     }
   }
