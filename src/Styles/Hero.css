@@ -60,6 +60,9 @@
     /* margin: 1rem 0 2rem 0; */
     margin-bottom: 2rem;
 }
+.clglogo{
+    margin: 1rem;
+}
 .red{
     color: red;
     /* font-family: 'logo'; */
@@ -80,6 +83,11 @@
         height: 120px;
         width: 450px;
         margin: 2rem 0 3rem 0;
+     }
+     .clglogo{
+        margin: 2rem;
+        height: 140px;
+        width: 150px;
      }
      .line2{
         font-size: 2rem;
@@ -104,12 +112,15 @@
         height:30px;
         width: 200px;
     }
+    .clglogo{
+        width: 80px;
+    }
     .line2{
         font-size: 1.03rem;
         /* line-height:1.5rem; */
     }
   }
-  @media screen and (max-width:427px){
+  @media screen and (max-width:500px){
     .hero{
         padding: 8rem 1rem 0 1rem;
         height: 58vh;

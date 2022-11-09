@@ -1,9 +1,12 @@
 import React,{useState} from 'react'
 import About from '../components/About'
 import AboutSec from '../components/AboutSec'
+import EventSec from '../components/EventSec'
+import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 import Navbar from '../components/Nav/Navbar'
 import Sidebar from '../components/Nav/Sidebar'
+import TeamSec from '../components/TeamSec'
 
 function Homepage() {
   const [isopen, setisopen] = useState(false);
@@ -17,6 +20,9 @@ function Homepage() {
        <Sidebar isopen={isopen} toggle={toggle} />
         <Hero />
         <AboutSec />
+        <EventSec />
+        <TeamSec />
+        <Footer />
     </div>
   )
 }
