@@ -1,5 +1,4 @@
 import React,{useState} from 'react'
-import About from '../components/About'
 import Hero from '../components/Hero'
 import Navbar from '../components/Nav/Navbar'
 import Sidebar from '../components/Nav/Sidebar'
@@ -15,7 +14,6 @@ function Homepage() {
        <Navbar toggle={toggle} />
        <Sidebar isopen={isopen} toggle={toggle} />
         <Hero />
-        <About />
     </div>
   )
 }
