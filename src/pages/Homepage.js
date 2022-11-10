@@ -1,5 +1,4 @@
 import React,{useState} from 'react'
-import About from '../components/About'
 import AboutSec from '../components/AboutSec'
 import EventSec from '../components/EventSec'
 import Footer from '../components/Footer'
