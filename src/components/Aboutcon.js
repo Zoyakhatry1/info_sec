@@ -14,7 +14,7 @@ function Aboutcon() {
        </div>
            
        <div>
-          <h1 className='about_header'>Objectives of the Club</h1>
+          <h1 className='About_obj'>Objectives of the Club</h1>
             <p >1. The main objective of the Club shall be to revive, maintain and popularise
               CyberSecurity or Information Security aspects within the students of this NIT Srinagar.</p>
             <p>2. The Club is also focused on popularising this move among the new batches so that they
@@ -43,7 +43,6 @@ function Aboutcon() {
       
           </div>
          
-        
        </div>
     
   )

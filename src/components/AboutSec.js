@@ -1,5 +1,4 @@
 import React from 'react';
-import aboutsecimg from "../Assets/about.jpg";
 import "../Styles/AboutSec.css";
 import { NavLink } from "react-router-dom";
 
